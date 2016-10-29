@@ -1,0 +1,115 @@
+﻿
+html { font-size: 100%; /* 1 */
+	-webkit-text-size-adjust: 100%; /* 2 */
+-ms-text-size-adjust: 100%; /* 2 */ }
+/* * Addresses `font-family` inconsistency between `textarea` and other form
+* elements. */
+html, button, input, select, textarea { font-family: sans-serif; }
+/* * Addresses margins handled incorrectly in IE 6/7. */
+body { margin: 0; font-family: 'Lato', sans-serif; overflow-x: hidden; }
+html, body { width: auto !important; overflow-x: hidden !important; }
+/* ==========================================================================
+Links
+========================================================================== */
+/* * Addresses `outline` inconsistency between Chrome and other browsers. */
+.sqcontainer{
+  padding-right:14px;padding-left:15px;margin-right:auto;margin-left:auto;
+  padding-bottom:10px;
+}
+a:focus { outline: thin dotted; }
+/* * Improves readability when focused and also mouse hovered in all browsers. */
+a:active, a:hover { outline: 0; }
+.clearfix:after { clear: both; }
+.clearfix { *zoom: 1; }
+.pullcontainer a#pull { display: none; }
+a { color: #282f35; -webkit-transition: all .25s ease; -moz-transition: all .25s ease; -ms-transition: all .25s ease; -o-transition: all .25s ease; transition: all .25s ease; }
+a:hover { color: #64c29e; text-decoration: none; }
+nav { height: 30px; margin-top: 5px; position: relative; margin-right: 10px;}
+.logo-holder { background: url(../imgs/logo.png) no-repeat center center; width: 94px; height: 85px; position: absolute;top: 5px; left: 327px; }
+.responsive-logo { display: hidden; }
+header { background-color: #f4f5fc; padding-bottom:0px;  }
+header ul { padding-top: 10px; margin-right:10px;}
+header ul li { list-style: none; float: left; text-transform: uppercase; letter-spacing: 2px; }
+header ul li a { display: block; margin: 0 20px; color: #4d4959; }
+
+.content{
+  padding-top: 30px;
+}
+
+.jsSpeechFactory-container {
+  position:relative;
+  width:100%;
+}
+
+.jsSpeechFactory-hint {
+  display:block;
+  white-space:nowrap;
+  overflow:hidden;
+  padding:4px 5px;
+  font-size: 90%;
+}
+.jsSpeechFactory-btn{
+  display: block;
+  position: absolute;
+  right: 5px;
+  margin: 4px 0;
+  padding-left: 10%;
+}
+.jsSpeechFactory-icon {
+  height:50px;
+}
+
+
+
+.search-control{
+margin: 5px auto ;
+ border-radius: 60px;
+ display:block;
+ width:80%;
+ height:40px;
+ padding:6px 12px;
+ font-size:14px;
+ line-height:1.42857143;
+ color:#555;
+ background-color:#fff;
+ background-image:none;
+ border:1px solid #ccc;
+ border-radius:4px;
+ -webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,.075);
+ box-shadow:inset 0 1px 1px rgba(0,0,0,.075);
+ -webkit-transition:border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+ -o-transition:border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+ transition:border-color ease-in-out .15s,box-shadow ease-in-out .15s
+}
+
+.search-control:focus{
+    border-color:#66afe9;
+    outline:0;
+    -webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+    box-shadow:inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6)
+}
+
+.form-control::-moz-placeholder{
+    color:#777;opacity:1
+}
+
+/*  css for cloud tags  */
+ /* D3 data visulation */
+
+ /* logo */
+    .logo { 
+        background: url(../imgs/logo.png) no-repeat center center;
+        width: 50px;
+        height:50px;
+        position: absolute;
+        top: 10px;
+        left: 20px; }
+
+
+/*  position  */
+.centered {
+  position: relative;
+  left: 50%;
+}
+
+/* this is the Css for search*/

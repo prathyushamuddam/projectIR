@@ -1,0 +1,16 @@
+<?php
+define('FIELDS_MISSING', 'Some Fields Are Missing');
+define('PASSWORD_NOT_MATCH', 'Passwords do not match');
+define('USER_REGISTRATION_FAIL', 'User registration failed');
+define('USER_REGISTRATION_SUCCESS', 'User registration was successful, You may login now');
+
+
+define('LOGIN_FIELDS_MISSING', 'Email and Password are missing');
+define('LOGIN_FAIL', 'Email and Password are mismatch');
+
+define('PASSWORD_CHANGE_SUCCESS', 'Password changed successfully.');
+define('PASSWORD_RESET_SUCCESS', 'Password reset successfully.');
+
+define('DATABASE_ERROR','Could not update the database.');
+define('DATABASE_INSERTION','Query successfully inserted in the database.')
+?>
